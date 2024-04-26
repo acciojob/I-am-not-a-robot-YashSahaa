@@ -36,6 +36,7 @@ for(let i = 1; i<=6; i++){
 
 let heading3 = document.createElement('h3');
 heading3.innerText = "Please click on the identical tiles to verify that you are not a robot."
+heading3.id = "h3"
 robotContainer.append(heading3);
 
 
